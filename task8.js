@@ -12,4 +12,4 @@ function timeConvert(num) {
   }
   return `${hourPlural} ${hoursSingular} and ${minutes} minutes`;
 }
-console.log(timeConvert(120));
+
