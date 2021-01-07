@@ -1,9 +1,11 @@
 function sum(num1, num2) {
   let sum = num1 + num2;
   sum.toString();
-  if (num1 === 3 || (num2 === 3 && sum === "3")) {
+  if (num1 === 3 || num2 === 3 && sum.includes("3")){
     return true;
-  } else {
+  } else{
     return false;
   }
 }
+
+console.log(sum(3, 0));
